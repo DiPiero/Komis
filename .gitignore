@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Komis/Migrations/20190528181743_SamochodZmianaModelu.Designer.cs
+/Komis/Migrations/20190528181743_SamochodZmianaModelu.cs
+/Komis/Migrations/20190528174307_InitialMigration.Designer.cs
+/Komis/Migrations/20190528174307_InitialMigration.cs
