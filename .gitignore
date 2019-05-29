@@ -342,3 +342,5 @@ healthchecksdb
 /Komis/Migrations/20190528181743_SamochodZmianaModelu.cs
 /Komis/Migrations/20190528174307_InitialMigration.Designer.cs
 /Komis/Migrations/20190528174307_InitialMigration.cs
+/Komis/Migrations/20190528194932_DodanieOpinii.cs
+/Komis/Migrations/20190528194932_DodanieOpinii.Designer.cs

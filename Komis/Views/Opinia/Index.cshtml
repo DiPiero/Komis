@@ -1,0 +1,33 @@
+﻿@model  Opinia
+
+<form asp-action="Index" method="post" role="form">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="NazwaUzytkownika"></label>
+        <input asp-for="NazwaUzytkownika" class="form-control" />
+        <span asp-validation-for="NazwaUzytkownika" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input type="email" asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Wiadomosc"></label>
+        <textarea asp-for="Wiadomosc" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Wiadomosc" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OczekujeOdpowiedzi"></label>
+        <input type="checkbox" asp-for="OczekujeOdpowiedzi" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Wyślij opinię" />
+    </div>
+</form>
