@@ -68,6 +68,13 @@ namespace Komis.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
+                else
+                {
+                    foreach (var error in Result.Errors)
+                    {
+                        ModelState.AddModelError("",error.Description);
+                    }
+                }
             }
 
             return View(loginVM);
